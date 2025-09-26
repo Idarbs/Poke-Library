@@ -17,8 +17,7 @@ def get_pokemon_info(pokemon_name):
         print(f"Pokemon Not Found, Try A Different Pokemon Name. Code: {response.status_code}.")
 
 while True: # Program will always run until user inputs X
-    print("What Pokemon Would You Like To Search For? Enter a Name Or Type 'X' To Quit.")
-    pokemon_name = input() # User inputs a pokemon name
+    pokemon_name = input("What Pokemon Would You Like To Search For? Enter a Name Or Type 'X' To Quit.\n") # User inputs a pokemon name
     if pokemon_name.isalpha() and not pokemon_name.upper() == 'X': # Validates user input
         poke_info = get_pokemon_info(pokemon_name)
         if poke_info: # Will always be true
