@@ -8,4 +8,4 @@ The user input directly sends the request towards that Pokémon's page. If there
 # Personal Comments
 Before this project, my knowledge of Python programming was limited to the basics. <br/>
 Doing this project has allowed me to see the vast possibilities and scripts that can be written using Python. <br/>
-Although the project itself is small, I learned a great deal from it. <br/>
+Although the project itself is small, I learned a great deal from it (Like handling Nested JSON Data, Making Requests). <br/>
